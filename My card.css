@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: lightgray;
+  color: black;
+  font: 18px "Roboto", sans-serif;
+  padding: 40px;
+}
+.avatar {
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 5px 19px 14px rgba(0, 0, 0, 0.25);
+}
+.Aboutme {
+  margin-bottom: 20px;
+  display: flex;
+}
+.Aboutme p {
+  color: darkslateblue;
+  margin: 0;
+  font-style: italic;
+}
+.info-text {
+  margin-left: 20px;
+}
+.Aboutme h1 {
+  margin-bottom: 25px;
+}
+@media (max-width: 700px) {
+  .Aboutme {
+    text-align: center;
+    display: block;
+  }
+}
+.social-media {
+  background-color: beige;
+  padding: 20px 45px;
+  border: 5px solid khaki;
+  border-bottom: dotted;
+  margin: 5px;
+}
+/*.box-model > div {
+  float: left;
+  background: black;
+  height: 200px;
+  width: 25%;
+  border: 5px solid red;
+  box-sizing: border-box;
+} */
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(87, 20, 149);
+}
+a:visited {
+  color: gray;
+}
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+.list {
+  padding: 0 20px;
+  list-style: square;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 8px;
+}
+.table-t {
+  width: 100%;
+}
+.table-t td {
+  padding-bottom: 10px;
+}
+.table-t td:nth-child(2),
+.table-t td:nth-child(3) {
+  color: hsl(220, 4%, 54%);
+}
+.lista {
+  margin-bottom: 10px;
+  list-style: circle;
+  padding-left: 10px;
+  color: #86898f;
+  border-bottom: 2px solid #ccc;
+}
+.contacts {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px #86898f solid;
+
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  background: transparent;
+}
+.row {
+  display: flex;
+}
+.row > .form-group {
+  width: 50%;
+}
+.row > .form-group:first-child {
+  margin-right: 30px;
+}
+.btn {
+  color: black;
+  padding: 15px 20px;
+  background: transparent;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.position {
+}
+.box {
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+}
